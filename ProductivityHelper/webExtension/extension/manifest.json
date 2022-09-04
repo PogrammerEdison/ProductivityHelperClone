@@ -1,0 +1,14 @@
+{
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupP+8VxCe+8hwFrHZUZXLHGlMQFwl1QFPEwC7Yi5xKdC5Lz0xMxNxHZLhEmSNUm+782JbEEWGDnRLjk0yMCdJePGf5uMdU7qdOj7uzIaEdqDf8cej9PxMWq6RhMG9/ONPLIeVVU641LEF11eEZszFNaAFM4wqRsP4TqO0pUq8jGmeBwDxOWRFMYwJbvqf7v3/R0VFqyqJlgOPOBkC4F170yIJkl+JyXY6fCg8tDNiARdygIEIB6cv8lDOtp074XY6PwcS7DpTm1Ks3xoZk+EaplMWyxnnpCfBDA9BADM21GXT8Yzfe0axp1g5QxqmsmLgfhU2crjeE/7KNQ1jS4nBQIDAQAB",
+  "name": "Productivity Helper",
+  "description": "Communicates with the Productivity Helper desktop application",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "nativeMessaging",
+    "tabs"
+  ]
+}

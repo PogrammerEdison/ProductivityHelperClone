@@ -1,0 +1,9 @@
+{
+  "name": "com.bath.group14.productivity_helper_extension",
+  "description": "Uses NativeMessaging to communicate with the Productivity Helper",
+  "path": "extension-relay.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://beogjeelbekkfddadhpahnbhdooaomgj/"
+  ]
+}
